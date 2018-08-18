@@ -1,0 +1,680 @@
+/* COMMENT */
+#comment-card-body {
+  background-color: #fcfcfc;
+}
+#comment-username {
+  font-size: 14px;
+  margin-left: -12px;
+}
+#comment-username:hover {
+  cursor: pointer;
+}
+#comment-text {
+  margin-top: -12px;
+  margin-left: 12px;
+  font-size: 12px;
+}
+#comment-item {
+  padding-bottom: 10px;
+}
+/* THREADS */
+#private-status-container {
+  padding-right: 100px;
+  color: dark grey;
+}
+#thread-name-container {
+  margin-left: -8px;
+}
+#thread-feed-item {
+  border-bottom: solid 0.75px #f2f2f2;
+  padding: 10px 15px 10px 15px;
+}
+#thread-feed-date {
+  margin-left: 80%;
+}
+#thread-post-button {
+  margin-bottom: 10px;
+}
+#thread-content {
+  height: auto;
+  background-color: #fcfcfc;
+}
+#thread-textarea {
+  margin-bottom: 10px;
+}
+#thread-comment-feed {
+  height: auto;
+}
+#thread-comment-form {
+  border-top: solid 0.5px grey;
+  width: 100%;
+  position: sticky;
+  bottom: 0;
+  background-color: white;
+}
+#thread-comment-input {
+  width: 100%;
+}
+#thread-header {
+  margin-top: 4%;
+  padding: 15px;
+  height: auto;
+}
+#thread-header-count {
+  margin-right: 30px;
+}
+#thread-header-desc {
+  font-size: 15px;
+  color: grey;
+}
+#threads-list-a {
+  height: 150px;
+  overflow-y: auto;
+  overflow: hidden;
+}
+#threads-list-date {
+  font-size: 10px;
+  color: black;
+}
+#threads-list-card {
+  width: 90%;
+  height: auto;
+  margin-left: 8%;
+  margin-top: 2%;
+}
+.threads-list-container {
+  margin-top: 25%;
+}
+#threads-new-threads {
+  text-align: center;
+  margin-top: 15%;
+}
+#thread-create-card {
+  width: 95%;
+  margin: 1% 5% 0 auto;
+}
+#thread-create-label {
+  margin-top: 4%;
+}
+#thread-create-btn {
+  margin-top: 4%;
+}
+#thread-branch-icon {
+  color: grey;
+  text-align: center;
+}
+#test-bg-2 {
+  height: 200px;
+  background-color: blue;
+}
+/* FIND-HOME */
+#home-find-grey {
+  width: 95%;
+  height: 2px;
+  background-color: #e2e2e2;
+}
+#home-find-result {
+  width: 95%;
+}
+#home-find-card {
+  width: 95%;
+  margin: 2% 20% 0 0;
+}
+#home-find-input {
+  width: 70%;
+}
+#home-find-title {
+  margin-top: 21%;
+  text-align: center;
+}
+#home-profile-prompt2 {
+  margin-top: 18%;
+  text-align: center;
+}
+#home-profile-prompt-icon {
+  color: blue;
+}
+/* FIND */
+#find-profiles-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: 10px auto 0 auto;
+  padding-bottom: 0;
+}
+#profile-search-form {
+  width: 79%;
+}
+#find-results {
+  margin-top: 5%;
+  margin-left: 7%;
+  margin-bottom: 4%;
+}
+#find-results-item {
+  background-color: #fcfcfc;
+}
+#find-results-item:hover {
+  cursor: pointer;
+  transition-duration: 0.45s;
+  background-color: #f7f7f7;
+  box-shadow: 2px 6px 8px 4px rgba(0, 0, 0, 0.2);
+}
+#find-clear-search {
+  margin-left: 8%;
+}
+.find-grey-line {
+  width: 79%;
+  height: 2px;
+  background-color: grey;
+}
+#username-search {
+  width: 79%;
+}
+#find-search-card {
+  padding: 10px 40px 40px 40px;
+  margin-top: 5%;
+  margin-left: 2%;
+  width: 100%;
+}
+#find-title {
+  margin-top: 5%;
+  padding-bottom: 10px;
+}
+/* HOME  --------------------- */
+#post-card-username:hover {
+  color: blue;
+  cursor: pointer;
+}
+#post-card-username {
+  width: 30%;
+}
+#home-load-more {
+  text-align: center;
+  margin-top: 60px;
+}
+#home-find-people {
+  width: 80%;
+  margin: 22% auto 0 auto;
+  text-align: center;
+}
+#home-find-more-people {
+  text-align: center;
+}
+#feed-no-posts {
+  text-align: center;
+}
+.threads-container {
+  margin-top: 18%;
+  margin-left: 10%;
+  width: 90%;
+}
+#threads-logo {
+  color: grey;
+}
+#threads-title {
+  text-align: center;
+}
+#feed-profile-prompt {
+  text-align: center;
+}
+#post-feed-container {
+  padding-bottom: 100px;
+}
+.post-grey-line {
+  width: 2px;
+  background-color: #f2f2f2;
+  margin-left: 40px;
+}
+#post-date {
+  font-size: 12px;
+}
+#posts-load-icon:active {
+  transform: rotate(135deg);
+  transition-duration: 0.5s;
+}
+#post-like-icon {
+  margin-left: 12px;
+  font-size: 14px;
+}
+#post-comment-icon-i {
+  margin-left: 6px;
+  font-size: 14px;
+}
+#post-like-icon:active {
+  transform: scaleY(2.5);
+  transition-duration: 0.35s;
+}
+#post-like-amount {
+  font-size: 14px;
+}
+#post-comment-icon {
+  font-size: 14px;
+  color: #5e92e5;
+}
+#post-card {
+  border-radius: 0;
+}
+#post-card:hover {
+  background-color: #f9fbff;
+  border: solid 1px white;
+  transition-duration: 0.75s;
+}
+#post-card-text {
+  font-size: 14px;
+}
+#post-text {
+  margin-top: 2%;
+}
+#home-add-tags {
+  margin-top: 2%;
+}
+#post-button {
+  margin-top: 1%;
+}
+.home-grey-line {
+  width: 100%;
+  height: 2px;
+  margin-top: 2%;
+  background-color: #b5b5b5;
+}
+#profile-form-container {
+  margin-top: 8%;
+  margin-bottom: 2%;
+}
+#test-1 {
+  background-color: #fcfcfc;
+}
+
+#test-3 {
+  background-color: #fcfcfc;
+}
+/* SEARCH  --------------------- */
+#type-select {
+  width: 18%;
+  margin-left: 18%;
+  margin-bottom: 2%;
+}
+#search-albums-artist {
+  font-size: 14px;
+}
+#search-albums-body {
+  line-height: 6px;
+}
+#search-albums-results {
+  margin-top: -20px;
+}
+#search-albums-grey {
+  width: 55%;
+  height: 2px;
+  margin-left: 18%;
+}
+#albums-add-button {
+  margin-left: 20px;
+}
+#search-albums-card {
+  padding: 15px 0 5px 20px;
+  width: 84%;
+  margin: 15px 0 15px 18%;
+  line-height: 6px;
+}
+#albums-search-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: solid 0.75px black;
+}
+#search-albums {
+  width: 75%;
+  height: 260px;
+  opacity: 0.75;
+}
+#search-type {
+  padding: 2px 4px 2px 4px;
+  margin-top: 10px;
+}
+#search-grey-line {
+  width: 55%;
+  height: 2px;
+  margin-left: 18%;
+}
+#search-title {
+  margin-left: 18%;
+  margin-top: 4%;
+}
+#search-subtitle {
+  margin-left: 18%;
+}
+#search-banner {
+  height: 300px;
+  background-color: #ffffff;
+}
+#search-music-form {
+  width: 52%;
+  margin-top: 2%;
+  margin-left: 18%;
+  color: white;
+}
+/* PROFILE  --------------------- */
+#albums-list {
+  padding: 5px 0 2px 0;
+  width: 100%;
+}
+#profile-albums-del {
+  font-size: 10px;
+  padding: 1px 4px 1px 4px;
+  margin-left: 90%;
+}
+#profile-myFeed-title {
+  margin-top: 5%;
+}
+#profile-albums-dropdown {
+  width: 80%;
+}
+#profile-music-type {
+  font-weight: bold;
+  width: 100%;
+  padding: 15px 10px 10px 10px;
+}
+#profile-albums-a {
+  width: 200px;
+  margin-top: 1%;
+}
+#profile-album-release {
+  font-size: 10px;
+  margin-left: -70%;
+}
+#profile-album-artist {
+  font-size: 14px;
+  margin-left: -70%;
+  margin-top: -8%;
+}
+#profile-album-name {
+  margin-left: -70%;
+}
+#profile-album-img {
+  width: 70px;
+  height: 70px;
+}
+.progress {
+  height: 12px;
+}
+#profile-followers-li {
+  width: 100%;
+}
+#profile-followers-li:hover {
+  cursor: pointer;
+  box-shadow: 2px 6px 8px 4px rgba(0, 0, 0, 0.2);
+}
+#profile-followers-img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 12px;
+}
+#followers-none-container {
+  width: 400px;
+  text-align: center;
+  color: #dddddd;
+}
+
+#profile-check-info {
+  color: #9e54b7;
+}
+#profileForm-tags {
+  width: 52%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 22%;
+}
+#profileForm-bio {
+  width: 52%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+}
+#profile-top {
+  margin-top: 15px;
+}
+#profile-form {
+  width: 80%;
+  margin-left: 7%;
+}
+#profile-edit-profile {
+  display: block;
+  margin-left: 41%;
+  margin-top: 4%;
+}
+#profile-logout-profile {
+  display: block;
+  margin-left: 41%;
+  margin-top: 2%;
+  margin-bottom: 50px;
+}
+#profile-followers-btn {
+  padding: 2px 4px;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+#profile-tags-items {
+  margin-top: 5px;
+  margin-left: 4px;
+}
+#profile-socials {
+  padding: 0 10px;
+}
+#profile-banner {
+  background-position: -10% 60%;
+  height: 100vh;
+}
+#profile-side-card {
+  width: 60%;
+  margin-top: 15%;
+  margin-left: 36%;
+}
+#profile-middle-col {
+  background-color: white;
+  margin-top: 2%;
+}
+
+/* First loading is for the feed second is for profile page */
+#loading-image {
+  width: 250px;
+  margin-top: -5%;
+}
+#loading-image-profile {
+  width: 400px;
+  margin-top: 10%;
+}
+/* NAVBAR  --------------------------- */
+#navbar-dropdown {
+  background-color: #364156;
+  color: white;
+}
+#nav-content {
+  background-color: #364156;
+}
+#navbar-tabs-auth {
+  margin-left: 54%;
+  color: white;
+  font-size: 16px;
+}
+#navbar-tabs:hover {
+  text-shadow: 2px 6px 8px 4px rgba(0, 0, 0, 0.2);
+  border: 0.75px solid white;
+}
+#navbar-tabs-out {
+  margin-left: 70%;
+}
+#navbar-image {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  line-height: 4px;
+}
+#navbar-image:hover {
+  box-shadow: 2px 6px 8px 4px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+#navbar-logo {
+  margin-left: 11%;
+}
+#navbar-tabs {
+  padding: 0 30px 0 30px;
+}
+#navbar-tabs-user {
+  padding: 0 30px 0 30px;
+}
+/* LOGIN ------------------------ */
+#login-form {
+  margin-top: 25%;
+  display: block;
+  padding: 80px;
+  box-shadow: 2px 6px 8px 4px rgba(0, 0, 0, 0.2);
+}
+#login-form-title {
+  margin-bottom: 10%;
+  text-align: center;
+}
+#login-form-logo {
+  width: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 4%;
+  margin-top: -4%;
+}
+/* REGISTER ------------------------ */
+#register-avatar {
+  width: 300px;
+  background-color: #fcfcfc;
+}
+.register-grey-2 {
+  margin-top: 5%;
+  height: 4px;
+  width: 590px;
+  background-color: #e2e2e2;
+}
+#register-icon {
+  margin-top: 40%;
+  margin-left: 30%;
+  color: #848484;
+}
+#register-icon-2 {
+  margin-top: 2%;
+  margin-left: 27%;
+  color: #848484;
+}
+#register-icon-3 {
+  margin-top: 2%;
+  margin-left: 3%;
+  color: #848484;
+}
+#register-subtitle {
+  color: #afafaf;
+}
+.register-grey-line {
+  height: 35px;
+  width: 3px;
+  margin-left: 8px;
+  background-color: #e2e2e2;
+}
+#register-email {
+  margin-top: -15px;
+}
+#register-button {
+  margin-top: 20px;
+}
+#register-form {
+  width: 80%;
+  margin-left: 7%;
+}
+#register-row {
+  margin-top: 2.5%;
+}
+#register-login {
+  margin-top: 2%;
+}
+/* WELCOME  ---------------------- */
+#spotify-logo {
+  width: 50px;
+  height: 50px;
+}
+.welcome-grey-line {
+  height: 1px;
+  background-color: grey;
+  width: 76%;
+  margin-left: 12%;
+}
+.welcome-more-info-container {
+  margin-left: 5%;
+  margin-right: 30%;
+  margin-top: 15%;
+}
+#welcome-more-info {
+  text-align: center;
+}
+#welcome-mockup {
+  width: 65%;
+  height: 88%;
+  margin-left: 20%;
+}
+#welcome-row {
+  height: 600px;
+  background-image: url("welcome-background.png");
+  background-position: 30% 62%;
+}
+#welcome-login {
+  width: 40%;
+  margin-top: 0;
+  margin-left: 25%;
+  color: black;
+}
+#welcome-register {
+  display: block;
+  margin-top: 10%;
+}
+#welcome-title {
+  color: black;
+  font-size: 40px;
+  margin-left: 25%;
+  margin-top: 12%;
+}
+#welcome-title-login {
+  margin-left: 25%;
+  margin-top: 6%;
+}
+#welcome-submit {
+  margin-top: 8%;
+}
+#welcome-cards-1 {
+  margin-top: 30px;
+  width: 65%;
+  height: auto;
+  margin-left: auto;
+  margin-bottom: 10%;
+}
+#welcome-cards-3 {
+  margin-top: 30px;
+  width: 65%;
+  height: auto;
+  margin-right: auto;
+  margin-bottom: 10%;
+}
+#welcome-cards-2 {
+  margin-top: 30px;
+  width: 90%;
+  height: auto;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 10%;
+}
+#welcome-grey-2 {
+  background-color: #f2f3f4;
+  height: 5px;
+}
+#footer {
+  margin-top: 10%;
+}
+body {
+  font-family: "Raleway", sans-serif;
+  overflow-x: hidden;
+}
