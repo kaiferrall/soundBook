@@ -1,6 +1,6 @@
 soundBook is a music based social media web application.
 
-    It is built with Node, React and Redux.
+    Built with Node, React and Redux.
     
     Features Include: 
         Frontend and Backend authentication.
